@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace QLTV
 {
-    public partial class Form1 : Form
+    public partial class frmsignup : Form
     {
-        public Form1()
+        public frmsignup()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Frmlogin f = new Frmlogin();
-            f.Show();
-
         }
     }
 }
